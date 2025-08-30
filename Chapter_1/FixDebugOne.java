@@ -16,6 +16,6 @@ Bugs:
 3. (line 7 wrong syntax for System "Systm" instead of "System)
 4. (line 2 wrong syntax for class name should not have a space "fixDebugOne" instead of "FixDebug One")
 5. ( line 5 theres no space between String[] and args)
-6. (no closing bracket for class added at line 21)
+6. (no closing bracket for the class added } at line 21)
 */
 }
