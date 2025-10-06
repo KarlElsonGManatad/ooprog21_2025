@@ -13,7 +13,7 @@ import java.util.Scanner;
             System.out.print("What is your Regular pay Rate? ");
             double payRate = input.nextDouble();
 
-            Employee emplo = new Employee(1001, payRate);
+            Employee emplo = new Employee(101, payRate);
 
             double regPay = emplo.getRegularPay(hoursWorked);
             double otPay = emplo.getOvertimePay(hoursWorked);

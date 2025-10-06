@@ -3,15 +3,16 @@ public class Employee{
     private int employeeNumber;
     private double payRate;
     private static final int maxEmployee = 9999;
-    private static final double maxRate = 60.00;
+    private static final double maxPayRate = 60.00;
     private static final double overTime = 1.5;
 
     public Employee(int employeeNumber, double payRate)
         {
          if (employeeNumber > maxEmployee)
              employeeNumber = maxEmployee;
-         if (payRate > maxRate)
-             payRate = maxRate;
+             
+         if (payRate > maxPayRate)
+             payRate = maxPayRate;
          this.employeeNumber = employeeNumber;
          this.payRate = payRate;
         }
